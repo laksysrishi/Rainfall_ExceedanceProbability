@@ -147,48 +147,6 @@ h5netcdf
 
 ---
 
-# Repository Structure
-
-A recommended repository structure is:
-
-```text
-.
-├── README.md
-├── CM801_Group_Assignment.ipynb
-│
-├── data/
-│   ├── Maharashtra_Rainfall_1991_2020.nc
-│   ├── annual_max_rainfall.nc
-│   ├── gumbel_return_periods.nc
-│   ├── exceedance_probability.nc
-│   └── ...
-│
-├── Shapefiles/
-│   ├── MH.shp
-│   ├── MH_Districts_SOI.shp
-│   └── supporting shapefile files
-│
-└── outputs/
-    ├── mean_annual_max_rainfall.tif
-    ├── district_rainfall_stats.shp
-    ├── district_rainfall_stats.csv
-    ├── gumbel_return_maps.png
-    ├── weibull_return_maps.png
-    ├── hazard_index_pixel.png
-    ├── district_hazard_map.png
-    └── ...
-```
-
-The original notebook uses Google Drive paths under:
-
-```text
-/content/drive/MyDrive/CM801/
-```
-
-These paths must be changed when running the notebook outside the original Google Colab environment.
-
----
-
 # Methodology
 
 The complete workflow is:
